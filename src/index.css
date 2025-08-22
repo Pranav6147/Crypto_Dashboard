@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  @apply selection:bg-indigo-200 selection:text-indigo-900;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
